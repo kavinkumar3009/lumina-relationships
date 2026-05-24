@@ -41,42 +41,13 @@ function Blog() {
       <section className="py-24 px-6 text-center">
         <Reveal>
           <p className="font-display text-xs tracking-[0.5em] text-primary uppercase mb-5">The Journal</p>
-          <h1 className="font-display text-5xl md:text-7xl text-gradient-gold mb-6">Essays & Interviews</h1>
+          <h1 className="font-display text-5xl md:text-7xl text-gradient-gold mb-6">Stories by Anonymous People or Ourselves</h1>
           <p className="font-serif text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            A growing archive of writing on intimacy, attraction, trust, and the modern practice of love.
+            Notes: Enga nega padekura stories elame <span className="font-bold">Tanglish</span> tha irukum, Ethula iruga stories elame 100 % true ila athukunu fasle ila based on true stories we make it.
           </p>
         </Reveal>
       </section>
 
-      <section className="px-6">
-        <div className="max-w-6xl mx-auto flex flex-col gap-6">
-          <div className="relative max-w-xl mx-auto w-full">
-            <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground" size={18} />
-            <input
-              type="search"
-              value={q}
-              onChange={(e) => setQ(e.target.value)}
-              placeholder="Search essays, interviews, tags..."
-              className="w-full pl-12 pr-4 py-3 rounded-full bg-background/60 border border-border focus:border-primary/60 focus:outline-none text-foreground placeholder:text-muted-foreground/60"
-            />
-          </div>
-          <div className="flex flex-wrap gap-2 justify-center">
-            {CATEGORIES.map((c) => (
-              <button
-                key={c}
-                onClick={() => setCat(c)}
-                className={`px-4 py-2 rounded-full text-xs tracking-[0.2em] uppercase transition border ${
-                  cat === c
-                    ? "bg-gradient-gold text-primary-foreground border-transparent shadow-gold"
-                    : "border-border text-muted-foreground hover:text-foreground hover:border-primary/40"
-                }`}
-              >
-                {c}
-              </button>
-            ))}
-          </div>
-        </div>
-      </section>
 
       <section className="py-16 px-6">
         <div className="max-w-7xl mx-auto">

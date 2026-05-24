@@ -4,6 +4,7 @@ import blog3 from "@/assets/blog-3.jpg";
 import blog4 from "@/assets/blog-4.jpg";
 import blog5 from "@/assets/blog-5.jpg";
 import blog6 from "@/assets/blog-6.jpg";
+import { IDS } from "./common";
 
 export interface BlogPost {
   slug: string;
@@ -31,108 +32,28 @@ export const CATEGORIES = [
 
 export const blogs: BlogPost[] = [
   {
-    slug: "the-quiet-language-of-emotional-intimacy",
-    title: "The Quiet Language of Emotional Intimacy",
+    slug: "cuckold-wife-with-bull",
+    title: "CUCKOLD WIFE WITH BULL",
     excerpt:
-      "Beyond words and touch lies a deeper conversation. We explore the subtle vocabulary couples use to feel truly seen.",
-    category: "Intimacy",
-    tags: ["intimacy", "connection", "emotion"],
+      "Not fullfilled wife, fullfilled by a bull.",
+    category: "Cuckold and Bull",
+    tags: ["cuckold", "bull", "callboy", "relationships", "darkfantasy", "maleescort", "dating"],
     readingTime: 7,
-    date: "2025-04-12",
-    author: "The Editorial Desk",
+    date: "-",
+    author: "Zyan",
     image: blog1,
     content: [
-      "Intimacy is often mistaken for proximity. Yet two people can share a bed and remain strangers, while others can sit in silence across a candlelit table and feel entirely known.",
-      "Emotional intimacy is built in micro-moments: the pause before answering, the question that follows an answer, the way a partner remembers a small detail you mentioned weeks ago. These are the threads of a quieter language.",
-      "Psychologists describe this as attunement — a sustained capacity to notice and respond. It is not grand. It is granular. And it is, perhaps, the most underrated skill in modern love.",
-      "In our interviews with long-married couples, the word that returned again and again was not passion. It was presence.",
+      "Sex la pleasure rompa rompa mukiyam athu ilama neraya girls rompa depressed aa feel panuranga.",
+      "Etha enode first meet enaku rompa bayam irundhuchu. Aana avanga rompa soft type. Avangala before meet na pathathu kuda ila ana enaku epiyathu oru time paneranum aasila varan solitan before direct meet pic venam solitanga avangaluku enmela bayam na avanga pic aa missuse paneruvanu.so rednu perum sela bayathoda enga first meet panurom",
+      "Actually en keta avnag matrum tha pesunaga avanga hubby therium sonaga apa enaku enatha cuckold life pathe theriyathu. epdi husband okay soluranga namala etho pana poranga bayama iruchu iruthalum maybe unmaya irutha ena pana oru thought,apa the vena enaku nega travel ku pay panunga na varan sona avangalum bus book pane kuduthanga enaky konjam trust vanthuchu before meet any travel.",
+      "Naga konjam close agetom so i'm aslo feeling comfortable before travel so suddly asked me na rompa alagala iruga matan unaku okay aa ketanga.Unmaya solanumnaa apa tha enaku full hope vanthu okay she is only expecting sexual pleasure.enaku rompa bayam en kidney eduthuta ena pana ena blackmail pana ena pana neraya thoughts mind la iruchu so im confident and started travel.",
+      "Travel start panetan nanu destination reach panetu rapido potu avanga location poitan oru spot la wait pana sonaga na more then 20min wait panuran yerumae varala serioly im upset aprm tha avanga husband vanthanga scooty eri avanga appartment pogum pothu tha avaru enketa keguraru nega panurathu na pagavanu i don't know what i cuckold husand at the time enaku sema shock iruthum seri konja na panetu soluran nega vanga sona.",
+      "Nanu refresh panetu morning breakfast kuduthanga sapetu start pana eduthaum lick pana sonaga nala g-spot lick pana before meet im a fresher right neraya articles padechan then nala lick panerupa around oru 15-20min unmaya solanum na enaku vai valichu finally avanga antha peak varum pothu flower nala suck pane urichan last one min she get pleasure enketa life la etha na get panura first pleasure sonaga again i'm shocked unga husband ketan avanga lick panathu ila sonaga i thought just she kidding but seriouly avanga husband lick panathu ilayama after getting pleasure she hug me tightly and kiss around my face i'm feeling shy",
+      "Konjam break eduthutom aprm avangaliku fingring pana actuly enaku fingring pana therila avanga soli kuduthanga athae mathirir pana but intha round infront of her husband ethu naga panunom after fingring avanga cuckold husband ena fuck pana sonaga enaku konjam shy iruchu aprm na pana avanga husband atha pathu nala rasichanga she also enjoy it ethu oru 4 time differnt posses la panunom .",
+      "Nit dinner senthu cook pane sapetom after dinner we stared again without light 69 panunom aprm avanga fantasy la sola sola panuna, nala erugama hug pane thugonom aprm ena story end.",
+      `Ungaluku enkuda pananum wish irutha telegram id ku message panunga im safe and trusted guy (ID: ${IDS.telegramId})`,
     ],
-  },
-  {
-    slug: "interview-twenty-years-one-conversation",
-    title: "Twenty Years, One Conversation",
-    excerpt:
-      "An anonymous interview with a couple who never stopped asking each other questions — and what it taught us about lasting connection.",
-    category: "Interviews",
-    tags: ["interview", "longevity", "communication"],
-    readingTime: 9,
-    date: "2025-03-28",
-    author: "Field Notes",
-    image: blog2,
-    content: [
-      "We met them in a quiet living room, the kind of place where time slows. They asked to remain anonymous; we will call them M. and R.",
-      "Their rule, formed early, was simple: never assume you already know the answer. Twenty years in, they still ask each other the small things — how was your morning, what did you think of that song.",
-      "Curiosity, they told us, is the antidote to contempt. When you keep asking, you keep finding the person you fell for.",
-    ],
-  },
-  {
-    slug: "the-architecture-of-trust",
-    title: "The Architecture of Trust",
-    excerpt:
-      "Trust isn't a feeling — it's a structure. A look at the small commitments that hold relationships together.",
-    category: "Trust",
-    tags: ["trust", "honesty", "boundaries"],
-    readingTime: 6,
-    date: "2025-03-10",
-    author: "The Editorial Desk",
-    image: blog3,
-    content: [
-      "We tend to talk about trust as if it were weather — something that arrives or disappears without explanation. In truth, trust is architecture.",
-      "Each kept promise, each honest disclosure, each repaired rupture is a brick. The structure holds because of the bricks, not despite them.",
-      "Consent, too, lives here. To honor consent is to acknowledge that the other person is, always, a separate sovereign world.",
-    ],
-  },
-  {
-    slug: "what-attraction-actually-is",
-    title: "What Attraction Actually Is",
-    excerpt:
-      "The psychology of desire is older and stranger than we admit. A measured look at why we want who we want.",
-    category: "Psychology",
-    tags: ["psychology", "attraction", "desire"],
-    readingTime: 8,
-    date: "2025-02-22",
-    author: "The Editorial Desk",
-    image: blog4,
-    content: [
-      "Attraction is not a single thing. It is a chord — biology, biography, and timing playing at once.",
-      "Research suggests that novelty and safety, often imagined as opposites, are in fact partners. Desire needs both the unknown and the held.",
-      "Understanding this can soften self-judgment. We are not broken when desire shifts. We are responding to a living equation.",
-    ],
-  },
-  {
-    slug: "after-the-storm-emotional-recovery",
-    title: "After the Storm: Notes on Emotional Recovery",
-    excerpt:
-      "Healing after a difficult chapter is not linear. A gentle guide to rebuilding the self, with care.",
-    category: "Recovery",
-    tags: ["recovery", "healing", "self"],
-    readingTime: 7,
-    date: "2025-02-05",
-    author: "The Editorial Desk",
-    image: blog5,
-    content: [
-      "Recovery, like grief, refuses to follow a timetable. The work is to make room for the days that ache and the days that breathe.",
-      "Small rituals matter. A walk at the same hour. A page written before sleep. A friend you call without apology.",
-      "And patience — not the passive kind, but the active patience of someone who is, slowly, choosing to come back to themselves.",
-    ],
-  },
-  {
-    slug: "modern-couples-and-the-discipline-of-talking",
-    title: "Modern Couples and the Discipline of Talking",
-    excerpt:
-      "In a world of half-finished sentences and quick replies, real conversation has become a quiet act of devotion.",
-    category: "Communication",
-    tags: ["communication", "modern", "habits"],
-    readingTime: 6,
-    date: "2025-01-18",
-    author: "Field Notes",
-    image: blog6,
-    content: [
-      "Couples today communicate constantly and connect rarely. The phone has made distance feel like presence.",
-      "The remedy is unglamorous: a regular hour, a closed door, no screens. A discipline of listening without preparing a reply.",
-      "It is in this small, deliberate room that modern intimacy is most often rebuilt.",
-    ],
-  },
+  }
 ];
 
 export const getPostBySlug = (slug: string) => blogs.find((b) => b.slug === slug);

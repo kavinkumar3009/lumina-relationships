@@ -5,9 +5,6 @@ import { Menu, X } from "lucide-react";
 const NAV = [
   { to: "/", label: "Home" },
   { to: "/blog", label: "Journal" },
-  { to: "/about", label: "About" },
-  { to: "/faq", label: "FAQ" },
-  { to: "/contact", label: "Contact" },
 ] as const;
 
 export function SiteHeader() {
@@ -30,7 +27,7 @@ export function SiteHeader() {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3 group">
           <span className="font-display text-xl md:text-2xl text-gradient-gold tracking-widest">
-            NOIR&nbsp;&amp;&nbsp;OR
+            TamilCallBoy
           </span>
         </Link>
 
