@@ -99,7 +99,7 @@ function PostPage() {
             {post.content[0]}
           </p>
         </Reveal>
-        {post.content.slice(1).map((p, i) => (
+        {post.content.slice(1).map((p: string, i: number) => (
           <Reveal key={i} delay={i * 80}>
             <p className="font-serif text-lg md:text-xl text-foreground/85 leading-[1.85] mb-7">{p}</p>
           </Reveal>
@@ -108,7 +108,7 @@ function PostPage() {
         <div className="divider-gold my-12" />
 
         <div className="flex flex-wrap gap-2">
-          {post.tags.map((t) => (
+          {post.tags.map((t: string) => (
             <span key={t} className="px-3 py-1 rounded-full glass text-xs tracking-widest uppercase text-muted-foreground">
               #{t}
             </span>

@@ -93,7 +93,7 @@ function Contact() {
                         value={form[f]}
                         onChange={(e) => setForm({ ...form, [f]: e.target.value })}
                         className="w-full px-4 py-3 rounded-md bg-background/60 border border-border focus:border-primary/60 focus:outline-none text-foreground"
-                        maxLength={f === "message" ? 2000 : 255}
+                        maxLength={255}
                       />
                       {errors[f] && <p className="text-destructive text-xs mt-1.5">{errors[f]}</p>}
                     </div>
