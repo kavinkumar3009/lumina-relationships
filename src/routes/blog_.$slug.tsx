@@ -4,7 +4,7 @@ import { getPostBySlug, getRelated } from "@/data/blogs";
 import { BlogCard } from "@/components/BlogCard";
 import { Reveal } from "@/components/Reveal";
 
-export const Route = createFileRoute("/blog/$slug")({
+export const Route = createFileRoute("/blog_/$slug")({
   loader: ({ params }) => {
     const post = getPostBySlug(params.slug);
     if (!post) throw notFound();
