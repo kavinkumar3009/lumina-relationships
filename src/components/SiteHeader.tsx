@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const NAV = [
   { to: "/", label: "Home" },
@@ -26,6 +27,13 @@ export function SiteHeader() {
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3 group">
+          <img
+            src={logo}
+            alt="TamilCallBoy"
+            width={40}
+            height={40}
+            className="h-9 w-9 md:h-10 md:w-10 object-contain drop-shadow-[0_2px_8px_rgba(212,175,55,0.35)] transition-transform duration-500 group-hover:scale-105"
+          />
           <span className="font-display text-xl md:text-2xl text-gradient-gold tracking-widest">
             TamilCallBoy
           </span>
@@ -35,7 +43,7 @@ export function SiteHeader() {
           {NAV.map((n) => (
             <Link
               key={n.to}
-              to={n.to}
+              to={n.to as string}
               className="link-underline font-sans text-sm tracking-[0.18em] uppercase text-foreground/80 hover:text-foreground transition"
               activeProps={{ className: "text-primary" }}
               activeOptions={{ exact: n.to === "/" }}
@@ -60,7 +68,7 @@ export function SiteHeader() {
             {NAV.map((n) => (
               <Link
                 key={n.to}
-                to={n.to}
+                to={n.to as string}
                 onClick={() => setOpen(false)}
                 className="font-sans text-sm tracking-[0.2em] uppercase text-foreground/85"
                 activeProps={{ className: "text-primary" }}
