@@ -8,10 +8,10 @@ import { Newsletter } from "@/components/Newsletter";
 import { FAQ } from "./faq";
 import { IDS } from "@/data/common";
 
-export const Route = createFileRoute()({
+export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Noir & Or — Understanding Human Relationships Through Real Stories" },
+      { title: "Tamilcallboy — Understanding Human Relationships Through Real Stories" },
       {
         name: "description",
         content:
@@ -19,7 +19,7 @@ export const Route = createFileRoute()({
       },
       {
         property: "og:title",
-        content: "Noir & Or — Understanding Human Relationships Through Real Stories",
+        content: "Tamilcallboy — Understanding Human Relationships Through Real Stories",
       },
       {
         property: "og:description",
@@ -102,7 +102,7 @@ function Home() {
         <div className="relative z-10 max-w-5xl mx-auto text-center px-6 py-32">
           <Reveal>
             <p className="font-display text-xs md:text-sm tracking-[0.5em] text-primary uppercase mb-8">
-              — Callboy or Gigolo or Bull —
+              — Male Escort or Callboy or Gigolo or Bull —
             </p>
           </Reveal>
           <Reveal delay={150}>
